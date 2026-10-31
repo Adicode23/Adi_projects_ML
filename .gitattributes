@@ -1,2 +1,14 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+ """
+    Simulates a damped harmonic oscillator using the second-order differential equation:
+    m * d^2x/dt^2 + c * dx/dt + k * x = 0
+
+    Parameters:
+    mass (float): Mass of the oscillator (m)
+    damping_coeff (float): Damping coefficient (c)
+    spring_const (float): Spring constant (k)
+    t_max (float): Maximum time for simulation
+    num_points (int): Number of time points to simulate
+
+    Returns:
+    pd.DataFrame: DataFrame containing time and displacement values
+    """
